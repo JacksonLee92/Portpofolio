@@ -129,7 +129,7 @@ export const Experience = () => {
         <p>
           These are some of the skills,
         </p>
-        and I'm just a part of our team and community. I'm always happy about that.
+        and I&apos;m just a part of our team and community. I&apos;m always happy about that.
       </div>
 
       <div

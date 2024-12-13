@@ -330,7 +330,7 @@ const ProjectList = ({ chosenStack }: { chosenStack: string }) => {
             </Card>
           ))
         ) : (
-          <p>Sorry, we can't found the selected filter's project. Perhaps didn't share you</p>
+          <p>Sorry, we can&apos;t found the selected filter&apos;s project. Perhaps didn&apos;t share you</p>
         )}
       </div>
     </div>

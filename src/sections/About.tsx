@@ -24,7 +24,7 @@ export const AboutSection = () => {
               The team was small, but we were always very optimistic.
               Since then, the team has grown and grown, and now we have developers from various countries and regions, and we have built a strong community.
               As a development team leader, I am very happy about this.
-              Because this also is our team's mission.
+              Because this also is our team&apos;s mission.
               Thank you for your consideration.
             </p>
           </div>
