@@ -48,7 +48,7 @@ export default function RootLayout({
     <html lang="en" className=" scroll-smooth ">
       <body
         className={twMerge(
-          "bg-gray-900 text-white antialiased font-inter",
+          "bg-gray-800 text-white antialiased font-inter",
           inter.variable,
           calistoga.variable,
           dancing_script.variable,

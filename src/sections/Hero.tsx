@@ -1,5 +1,5 @@
 import Image from "next/image";
-import memojiImage from "../../public/images/memoji-computer.png";
+import memojiImage from "../../public/images/avatar.jpg";
 import grainImage from "../../public/images/grain.jpg";
 import StarIcon from "../../public/icons/star.svg";
 import SparkleIcon from "../../public/icons/sparkle.svg";
@@ -61,23 +61,22 @@ export const HeroSection = () => {
           <Image
             src={memojiImage}
             alt="person peeking from behind laptop"
-            className="size-[100px] rounded-full"
+            className="size-[200px] rounded-full"
           />
           <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
             <div className="bg-green-500 size-2.5 rounded-full relative">
               <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
             </div>
-            <div>Available for new projects</div>
+            <div>Strong Community</div>
           </div>
         </div>
         <div className=" mx-auto">
           <h1 className="font-cursive md:text-8xl text-5xl text-center mt-8 tracking-wide">
-            Hi. I&apos;m Yeabsira.
+            <p>Hello  Everyone!</p>
           </h1>
           {/* <h1 className="font-serif text-xl text-center">A Developer.</h1> */}
           <p className="text-center mt-4 text-white/60 md:text-lg">
-            I specialize in transforming designs into functional,
-            high-performance , scalable websites and web applications.
+            I am a backend developer and development team leader. I specialize in providing the best service to my clients and I love getting feedback from them.
           </p>
         </div>
 
@@ -87,16 +86,16 @@ export const HeroSection = () => {
               containerClassName="rounded-full"
               className="bg-white text-black flex items-center space-x-2"
             >
-              <span>Explore My Work</span>
+              <span>Welcome to my Portfolio</span>
 
               <ArrowDown className="size-4" />
             </HoverBorderGradient>
           </Link>
-          <Link href="/resume.pdf" download="yeabsira.pdf">
+          {/* <Link href="/resume.pdf" download="yeabsira.pdf">
             <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-12 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 hover:cursor-pointer z-10">
               My Resume
             </button>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

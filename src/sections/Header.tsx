@@ -8,7 +8,7 @@ export const Header = () => {
           Home
         </Link>
         <Link href="#about" className="nav-items">
-          About
+          About-Me
         </Link>
         <Link href="#experience" className="nav-items">
           Experience
@@ -16,12 +16,15 @@ export const Header = () => {
         <Link href="#projects" className="nav-items">
           Projects
         </Link>
-        <Link
+        <Link href="#projects" className="nav-items">
+          Contact-Me
+        </Link>
+        {/* <Link
           href="#contact"
           className="nav-items bg-white text-gray-900 hover:bg-white-70 "
         >
-          Contact
-        </Link>
+          
+        </Link> */}
       </nav>
     </div>
   );

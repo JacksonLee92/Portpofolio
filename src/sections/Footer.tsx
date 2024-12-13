@@ -2,30 +2,34 @@ import Link from "next/link";
 import ArrowUpRightIcon from "../../public/icons/arrow-up-right.svg";
 
 const footerLinks = [
-  {
-    title: "Github",
-    href: "https://github.com/itsyaba",
-  },
+  // {
+  //   title: "Github",
+  //   href: "https://github.com/itsyaba",
+  // },
   {
     title: "Telegram",
-    href: "https://t.me/itsyaba",
+    href: "https://t.me/@TechEnchantress",
   },
-  {
-    title: "Phone",
-    href: "tel:+251900305289",
-  },
+  // {
+  //   title: "Phone",
+  //   href: "tel:+251900305289",
+  // },
   {
     title: "Email",
-    href: "mailto:yabahane@gmail.com",
+    href: "houtian0515@gmail.com",
   },
-  {
-    title: "Linkedin",
-    href: "https://www.linkedin.com/in/itsyaba/",
-  },
-  {
-    title: "Twitter",
-    href: "https://x.com/itsyaba",
-  },
+  // {
+  //   title: "Skype",
+  //   href: "live:.cid.c1c7ca3b9447ddae",
+  // },
+  // {
+  //   title: "Linkedin",
+  //   href: "https://www.linkedin.com/in/itsyaba/",
+  // },
+  // {
+  //   title: "Twitter",
+  //   href: "https://x.com/itsyaba",
+  // },
 ];
 
 export const Footer = () => {
@@ -35,10 +39,10 @@ export const Footer = () => {
       <div className="container">
         <div className="border-t border-white/15 py-6 text-sm flex flex-col md:flex-row md:justify-between items-center gap-8">
           <div className="text-white/40">
-            &copy; {new Date().getFullYear()} Yeabsira Tarekegn. All rights
+            &copy; {new Date().getFullYear()} Jackson Lee. All rights
             reserved.
           </div>
-          <nav className="grid grid-cols-3 md:grid-cols-6 gap-4">
+          {/* <nav className="grid grid-cols-3 md:grid-cols-6 gap-4">
             {footerLinks.map((link) => (
               <Link
                 target="_blank"
@@ -50,7 +54,7 @@ export const Footer = () => {
                 <ArrowUpRightIcon className="size-4" />
               </Link>
             ))}
-          </nav>
+          </nav> */}
         </div>
       </div>
     </footer>

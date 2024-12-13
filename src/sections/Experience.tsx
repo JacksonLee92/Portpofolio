@@ -1,16 +1,26 @@
 import { EvervaultCard } from "@/components/ui/evervault-card";
 import {
+  IconBrandAndroid,
+  IconBrandAngular,
+  IconBrandCSharp,
+  IconBrandDjango,
+  IconBrandFigma,
+  IconBrandGolang,
   IconBrandJavascript,
+  IconBrandLaravel,
   IconBrandMantine,
   IconBrandMongodb,
   IconBrandNextjs,
   IconBrandNodejs,
+  IconBrandPhp,
   IconBrandPrisma,
   IconBrandReact,
   IconBrandReactNative,
   IconBrandRedux,
+  IconBrandRust,
   IconBrandTailwind,
   IconBrandTypescript,
+  IconBrandWordpress,
   IconGitPullRequest,
   IconGrain,
   IconSql,
@@ -21,6 +31,14 @@ export const Experience = () => {
     {
       name: "Next.Js",
       logo: <IconBrandNextjs size={100} stroke={1.25} />,
+    },
+    {
+      name: "Wordpress",
+      logo: <IconBrandWordpress size={100} stroke={1.25} />,
+    },
+    {
+      name: "Figma",
+      logo: <IconBrandFigma size={100} stroke={1.25} />,
     },
     {
       name: "Typescript",
@@ -61,31 +79,58 @@ export const Experience = () => {
       logo: <IconGrain size={100} stroke={1.25} />,
     },
     {
-      name: "Prisma",
-      logo: <IconBrandPrisma size={100} stroke={1.25} />,
+      name: "Rust",
+      logo: <IconBrandRust size={100} stroke={1.25} />,
+    },
+    {
+      name: "Golang",
+      logo: <IconBrandGolang size={100} stroke={1.25} />,
+    },
+    {
+      name: "Php",
+      logo: <IconBrandPhp size={100} stroke={1.25} />,
+    },
+    {
+      name: "Laravel",
+      logo: <IconBrandLaravel size={100} stroke={1.25} />,
     },
     {
       name: "Sql",
       logo: <IconSql size={100} stroke={1.25} />,
     },
     {
-      name: "Git",
-      logo: <IconGitPullRequest size={100} stroke={1.25} />,
+      name: "Django",
+      logo: <IconBrandDjango size={100} stroke={1.25} />,
     },
     {
-      name: "Mantine UI",
-      logo: <IconBrandMantine size={100} stroke={1.25} />,
+      name: "C#",
+      logo: <IconBrandCSharp size={100} stroke={1.25} />,
+    },
+    {
+      name: "Android",
+      logo: <IconBrandAndroid size={100} stroke={1.25} />,
+    },
+    {
+      name: "Angular",
+      logo: <IconBrandAngular size={100} stroke={1.25} />,
+    },
+    {
+      name: "Git",
+      logo: <IconGitPullRequest size={100} stroke={1.25} />,
     },
   ];
 
   return (
     <div className=" flex flex-col items-center justify-center ">
       <h1 className="font-cursive text-3xl md:text-5xl text-center mt-6 ">
-        My Experience{" "}
+        Experience{" "}
       </h1>
-      <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text text-center mt-4 mb-8  max-w-md mx-auto">
-        A small list of cool things I use to construct my projects.
-      </p>
+      <div className="font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text text-center mt-4 mb-8  max-w-md mx-auto">
+        <p>
+          These are some of the skills,
+        </p>
+        and I'm just a part of our team and community. I'm always happy about that.
+      </div>
 
       <div
         id="experience"

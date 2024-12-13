@@ -27,7 +27,7 @@ const projects = [
       "Breadit is a full-stack website built using modern web technologies, including Next.js with the App Router, TypeScript, and Tailwind CSS. The project provides a smooth, dynamic user experience with features like infinite scrolling for loading posts, authentication via NextAuth with Google integration, and personalized feeds for authenticated users. It employs optimistic updates to enhance the user experience by reflecting changes immediately while processing, and advanced caching mechanisms using Upstash Redis. ",
     image: breaditImage,
     link: "https://breadit-nextjs.vercel.app",
-    repo: "https://github.com/itsyaba/breadit",
+    repo: "https://github.com/JacksonLee92/Breadit.git",
     tech: [
       "Next.js",
       "TailwindCSS",
@@ -48,7 +48,7 @@ const projects = [
       "This project is a simplified clone of the popular productivity application, Notion. It's designed to replicate some of the core features of Notion, providing a platform where users can create, edit, and organize their notes in a flexible and intuitive interface.",
     image: cypressImage,
     link: "https://cypress-note-taking.vercel.app",
-    repo: "https://github.com/itsyaba/cypress",
+    repo: "https://github.com/JacksonLee92/Cypress.git",
     tech: ["Next.js", "TailwindCSS", "MongoDB", "Express", "Node.js", "Clerk"],
     isTopProject: true,
     isNextjs: true,
@@ -61,7 +61,7 @@ const projects = [
       "The project is focused on building a simple, yet functional, web-based interface where students and users can rate universities based on various criteria (e.g., campus, academics). It aims to create a platform where users can submit and view ratings for different universities, much like popular 'Rate My Professor' services but focused on universities as a whole.",
     image: ratemyuniImage,
     link: "https://ratemyuniversity.com",
-    repo: "https://github.com/itsyaba/rate-my-uni",
+    repo: "https://github.com/JacksonLee92/rateini.git",
     tech: ["Next.js", "TailwindCSS", "MongoDB", "Express", "Node.js"],
     isTopProject: true,
     isNextjs: true,
@@ -74,7 +74,7 @@ const projects = [
       "Project management dashboard built with modern web technologies. It leverages Next.js for the frontend, styled with Tailwind CSS, and uses Redux Toolkit and Material UI for state management and data grid handling. The backend is powered by Node.js and Express, with Prisma as the ORM to interact with a PostgreSQL database.",
     image: tmsImage,
     link: "https://tms.comhttps://tms-platforms.vercel.app",
-    repo: "https://github.com/itsyaba/tms-platform",
+    repo: "https://github.com/JacksonLee92/Tms-platform.git",
     tech: [
       "Next.js",
       "TailwindCSS",
@@ -96,7 +96,7 @@ const projects = [
       " E-commerce website designed to sell traditional Ethiopian clothing, jewelry, and home goods. The platform allows users to browse products by category, view detailed descriptions, and add items to a shopping cart. It includes essential e-commerce functionalities such as user account creation, order history tracking, and checkout with payment integration using Stripe.",
     image: ecommerceImage,
     link: "https://ethiopian-elegance.onrender.com",
-    repo: "https://github.com/itsyaba/Ethiopian-Elegance",
+    repo: "https://github.com/JacksonLee92/EthiopianElegance.git",
     tech: [
       "MongoDB",
       "Express",
@@ -117,8 +117,8 @@ const projects = [
       "A gallery website where users can upload images in either private or public mode. If an image is set to private, only the uploader can view it. Public images are visible to all users.",
     image: galleryImage,
     link: "https://gallery-glimpse-web.vercel.app",
-    repo: "https://github.com/itsyaba/Gallery_Glimpse_Frontend",
-    tech: ["React.js", "TailwindCSS", "MongoDB", "Express", "Node.js"],
+    repo: "https://github.com/JacksonLee92/Gallery_Glimpse_Frontend.git",
+    tech: ["React.js", "TailwindCSS", "MySql", "Rust"],
     isTopProject: false,
     isNextjs: false,
     isMern: true,
@@ -130,8 +130,8 @@ const projects = [
       "Frontend Mentor Challenge to build a space tourism landing page.",
     image: spaceImage,
     link: "https://frontend-mentor-rock-paper-scissors-challenge.netlify.app",
-    repo: "https://github.com/itsyaba/Rock--Paper-scissors",
-    tech: ["JavaScript ", "HTML", "CSS"],
+    repo: "https://github.com/JacksonLee92/Rock-Paper-scissors.git",
+    tech: ["JavaScript ", "HTML", "CSS","MongoDB"],
     isTopProject: false,
     isNextjs: false,
     isMern: false,
@@ -143,8 +143,8 @@ const projects = [
       "A history of everything you copy Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.",
     image: bookmarkImage,
     link: "https://frontend-mentor-rock-paper-scissors-challenge.netlify.app",
-    repo: "https://github.com/itsyaba/Rock--Paper-scissors",
-    tech: ["JavaScript ", "HTML", "CSS"],
+    repo: "https://github.com/JacksonLee92/Rock-Paper-scissors.git",
+    tech: ["JavaScript ", "HTML", "CSS","Node.js","MongoBD"],
     isTopProject: false,
     isNextjs: false,
     isMern: false,
@@ -155,8 +155,8 @@ const projects = [
     description: "A Rock Paper Scissors Game",
     image: rockImage,
     link: "https://frontend-mentor-rock-paper-scissors-challenge.netlify.app",
-    repo: "https://github.com/itsyaba/Rock--Paper-scissors",
-    tech: ["JavaScript ", "HTML", "CSS"],
+    repo: "https://github.com/JacksonLee92/Rock-Paper-scissors.git",
+    tech: ["Next.js","Tailwind", "Rust", "Golang","MySql"],
     isTopProject: false,
     isNextjs: false,
     isMern: false,
@@ -167,7 +167,7 @@ const projects = [
     description: "Threads Clone",
     image: threadsImage,
     link: "https://threads-clone-nextjs-project.vercel.app/",
-    repo: "https://github.com/itsyaba/Threads-Clone",
+    repo: "https://github.com/JacksonLee92/Threads-Clone.git",
     tech: ["Next.js ", "Tailwind", "MongoDB"],
     isTopProject: false,
     isNextjs: true,
@@ -239,14 +239,14 @@ export function ProjectsSection() {
       <div className="container mb-12">
         <div className="flex justify-center">
           <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text text-center">
-            Real-world Results
+            Actual working history
           </p>
         </div>
         <h1 className="font-cursive text-3xl md:text-5xl text-center mt-6">
-          Featured Projects
+          My previous projects
         </h1>
         <p className="text-center text-white/60 mt-4 md:text-lg max-w-md mx-auto">
-          See how I transformed concepts into engaging digital experiences.
+        Introduce brief experience, but not all        
         </p>
       </div>
       <div
@@ -301,22 +301,22 @@ const ProjectList = ({ chosenStack }: { chosenStack: string }) => {
                     ))}
                   </ul>
                   <div className="flex flex-row gap-4 items-center justify-start my-8">
-                    <Link
+                    {/* <Link
                       href={project.link}
                       className="w-2/3 md:w-2/5"
                       target="_blank"
                     >
                       <button className="bg-white text-gray-950 h-12 w-full rounded-xl font-semibold inline-flex items-center justify-center gap-2 cursor-pointer hover:bg-white/80   transition-all duration-300">
-                        <span>View Live Site</span>
+                        <span>Going to Site</span>
                         <ArrowRightIcon className="size-4 " />
                       </button>
-                    </Link>
+                    </Link> */}
 
-                    <Link href={project.repo} target="_blank">
-                      <button className="bg-black p-2 rounded-full cursor-pointer">
+                    {/* <Link href={project.repo} target="_blank">
+                      <button className="bg-black p-3 rounded-full cursor-pointer">
                         <IconBrandGithub className="size-8" />
                       </button>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
                 <div>
@@ -330,7 +330,7 @@ const ProjectList = ({ chosenStack }: { chosenStack: string }) => {
             </Card>
           ))
         ) : (
-          <p>No projects found for the selected filter.</p>
+          <p>Sorry, we can't found the selected filter's project. Perhaps didn't share you</p>
         )}
       </div>
     </div>
